@@ -1,0 +1,28 @@
+# Sanal ortam dosyaları (örn. venv)
+venv/
+
+# Python derleme dosyaları, pycache ve __pycache__ klasörleri
+*.pyc
+__pycache__/
+
+# Gereksiz dosyaları ve klasörleri ekleyebilirsiniz
+# Örneğin:
+# *.log
+# .vscode/
+# .idea/
+# .DS_Store
+# __MACOSX/
+
+# FastAPI projesinin dökümantasyonunu oluşturduğunuzda eklenen _build klasörü (isteğe bağlı)
+_build/
+
+# Eğer kullanıyorsanız, veritabanı dosyalarını (örn. SQLite) eklememek için:
+# *.db
+# *.sqlite
+
+# Eğer kullanıyorsanız, FastAPI'nin oluşturduğu OpenAPI şeması ve Swagger belgelerini eklememek için:
+# openapi.json
+# swagger.json
+
+# Proje özel konfigürasyon dosyaları (örn. .env) – DİKKAT: Sadece gerekiyorsa!
+# .env
